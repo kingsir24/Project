@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page | Pixel Lab</title>
+    <link rel="stylesheet" href="WEBPAGE.CSS">
+    <script src="webpage.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="image">
+            <img src="logo copy.jpg" alt="Pixel Lab Logo">
+        </div>
+        <h1>PIXEL LAB - GAMERS' LAST DESTINATION</h1>
+        <nav id="topbutton">
+            <ul>
+                <li><a href="webpage.html" class="mybutton">Home</a></li>
+                <li><a href="#games" class="mybutton">Games</a></li>
+                <li><a href="#reviews" class="mybutton">Reviews</a></li>
+                <li><a href="#contact" class="mybutton">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+    <main>
+        <section id="home">
+            <h2>Welcome to Pixel Lab</h2>
+            <p>Your ultimate destination for all things gaming. Discover the latest news, reviews, and guides to enhance your gaming experience.</p>
+        </section>
+        
+        <section id="games">
+            <h2>Top Games</h2>
+            <p>Explore our curated list of the top games you need to play right now.</p>
+            <div class="game-container">
+                <div class="game-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcooanR2yM5r6AqqwhY9mp6U7t54E_phKCDA&s" alt="CS:GO Logo">
+                    <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">Counter-Strike: Global Offensive</a>
+                </div>
+                <div class="game-box">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1731544174" alt="Dota 2 Logo">
+                    <a href="https://store.steampowered.com/app/570/Dota_2/">Dota 2</a>
+                </div>
+                <div class="game-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkxVakckg4XbbkiWHAT0uGxLZPWnG5kaWl7A&s" alt="Team Fortress 2 Logo">
+                    <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">Team Fortress 2</a>
+                </div>
+                <div class="game-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvQmktu3QSbhfcGUmhemiKg3EX34yeA_Pag&s" alt="Fortnite Logo">
+                    <a href="https://store.epicgames.com/en-US/p/fortnite">Fortnite</a>
+                </div>
+                
+            </div>
+        </section>
+        
+    
+
+        <hr>
+        <section id="reviews">
+            <h2>Game Reviews</h2>
+            <p>Read our in-depth reviews and stay updated with the latest gaming trends.</p>
+            <form id="reviewForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="3" required placeholder="Your Experience"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <hr>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Reach out to us at <a href="mailto:support@pixellab.com">support@pixellab.com</a>.</p>
+            <p>Contact: 8530231730</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Pixel Lab. All rights reserved.</p>
+    </footer>
+</body>
+</html>
